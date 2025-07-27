@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Copy to Clipboard</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	</head>
+	<body class="bg-gray-100 flex items-center justify-center min-h-screen px-4">
+		<div class="bg-white p-6 rounded-2xl shadow-lg w-full max-w-md text-center space-y-4">
+			<h1 class="text-xl font-bold text-gray-800">Copy Text to Clipboard</h1>
+
+			<textarea id="text" rows="4" class="w-full p-3 border rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-400" placeholder="Write something here..."></textarea>
+
+			<button onclick="copyText()" class="bg-blue-500 text-white px-6 py-2 rounded-xl hover:bg-blue-600 transition">📋 Copy</button>
+
+			<p id="msg" class="text-green-600 text-sm hidden">✅ Text copied successfully!</p>
+		</div>
+
+		<script src="app.js"></script>
+	</body>
+</html>
