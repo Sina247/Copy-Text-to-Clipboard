@@ -1,4 +1,4 @@
-# ✂️ Copy-Text-to-Clipboard
+# ✂️ Copy Text to Clipboard
 
 A sleek and user-friendly text copier built with **HTML**, **Tailwind CSS** and **JavaScript**. Easily copy any text to your clipboard with a clean, responsive interface.
 
